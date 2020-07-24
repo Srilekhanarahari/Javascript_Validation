@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="valid.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container" id="err">
+        <h1>Registration Form</h1>
+            <form method = "post" id = "register" action="" onsubmit="return validate()">
+
+                <label> First Name : </label><br><br>
+                <input type="text" name="name" id="fname" placeholder="Enter your First Name"><br><br>
+                
+                <label> Last Name : </label><br><br>
+                <input type="text" name="name" id="lname" placeholder="Enter your Last Name"><br><br>
+
+                <label> Mobile Number : </label><br><br>
+                <input type="tel" name="name" id="mnum" placeholder="Enter your Mobile Number"><br><br>
+                
+                <label> Date of Birth : </label><br><br>
+                <input type="date" name="name" id="dob"><br><br>
+
+                <label> Gender : </label><br><br>
+
+                <input type="radio" name="gender" id="gender" value="male"><label> Male </label>
+                <input type="radio" name="gender" id="gender" value="female"><label> Female </label>
+                <input type="radio" name="gender" id="gender" value="other"><label> Other </label><br><br>
+
+                <label> Email Id : </label><br><br>	
+                <input type="email" name="name" id="email" placeholder="Enter your email id"><br><br>
+
+                <label> Password : </label><br><br>	
+                <input type="password" name="name" id="pwd" placeholder="Password"><br><br>
+              
+                <input type="submit" value="Register" id="submit">	
+            </form>
+    </div>
+</body>
+</html>
